@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  .box {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(236, 134, 143);
+    border: 10px rgb(44, 238, 5);
+    font-size: 30px;
+  }
+  .inner-box {
+    width: 50%;
+    height: 50%;
+    background-color: rgb(46, 191, 235);
+    border: rgb(3, 3, 3);
+    font-size: 0.5em;
+    text-align: center;
+  }
+  #o2 {
+    color: rgb(19, 151, 25);
+    text-align: center;
+  }
+  .test:hover {
+    content: url(https://media.istockphoto.com/photos/cute-red-kitten-is-sleeping-on-his-back-and-smiling-paws-up-concept-picture-id1144982182?k=20&m=1144982182&s=612x612&w=0&h=VBL-PDRr9FddwkY4c7yBIkozv6669r-xNl-QJRRb1iw=);
+  }
+  
+  #InType:focus {
+    background-color: yellow;
+  }
+  

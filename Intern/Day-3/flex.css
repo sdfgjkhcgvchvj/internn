@@ -1,0 +1,92 @@
+/*.box {
+  max-height: 800px;
+  min-height: 800px;
+
+  max-width: 1200px;
+  min-width: 400px;
+
+  background-color: bisque;
+  color: red;
+  font-size: 30px;
+
+  border: 6px solid red;
+  margin: 10px 30px;
+  padding: 20px 40px;
+  background-repeat: no-repeat;
+  background-position: top;
+  background-attachment: scroll;
+  background-size: cover;
+  padding: 10px 20px;
+  background-image: url(https://uttarakhandtourism.gov.in/sites/default/files/2021-09/6.Mussoorie.jpg);
+}
+
+.box-two {
+  width: 250px;
+  height: 350px;
+
+  padding-top: 40px;
+  padding-bottom: 80px;
+  padding-left: 40px;
+  padding-right: 120px;
+
+  margin-top: 20px;
+  margin-bottom: 60px;
+  margin-left: 30px;
+  margin-right: 90px;
+
+  background-color: rgb(155, 190, 179);
+
+  border-top-style: dashed;
+  border-bottom-style: solid;
+  border-left-style: double;
+  border-right-style: dashed;
+
+  border-width: 4px 8px 6px 12px;
+
+  border-color: blueviolet red cyan black;
+  font-size: 60px;
+  color: darkgreen;
+  font-style: italic;
+}*/
+.box1 {
+    width: 400px;
+    height: 200px;
+    display: flex;
+    background-color: burlywood;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 3px solid darkblue;
+  }
+  .box2 {
+    width: 400px;
+    height: 200px;
+    display: flex;
+    background-color: rgb(100, 100, 10, 0.2);
+    flex-direction: column-reverse;
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+    align-items: center;
+  
+    border: 3px dashed red;
+  }
+  
+  .box3 {
+    width: 400px;
+    height: 200px;
+    display: flex;
+    background-color: rgb(100, 100, 255, 0.2);
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+  
+    border: 4px double black;
+  }
+  
+  .little-box {
+    width: 100px;
+    height: 50px;
+    border: 2px solid maroon;
+  }
+  

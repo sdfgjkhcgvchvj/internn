@@ -1,0 +1,26 @@
+.c1{
+    width: 90vw;
+    height:90vh;
+    background-color:blueviolet;
+    border: 5px solid red;
+
+}
+.c2 {
+    width: 500px;
+    height: 500px;
+    background-color: palevioletred;
+    border: 5px solid orange;
+}
+.c3 {
+    width: 70%;
+    height: 70%;
+    background-color: yellowgreen;
+    border: 5px solid pink;
+    font-size:40px;
+}
+.c4 {
+    font-size: .5rem;
+}
+.cs {
+    font-size: 2em;
+}
