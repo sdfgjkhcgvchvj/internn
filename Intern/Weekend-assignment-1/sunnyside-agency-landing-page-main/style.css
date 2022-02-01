@@ -1,0 +1,51 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.flex-container {
+  display: flex;
+  background-color: rgb(62,191,255); 
+      justify-content: end;
+}
+.flex-container > div {
+  margin: 10px;
+  padding: 20px;
+  font-size: 18px;
+   color: white;
+}
+.topbox{
+    color: white;
+    background-color: rgb(62,191,255); 
+    text-align: center;
+    font-family: fantasy;
+    font-size: 42px;
+}
+.flex{
+    display: flex;
+}
+.first-txt{
+    position: absolute;
+            top: 17px;
+            left: 50px;
+}
+.second-txt {
+            position: absolute;
+            bottom: 20px;
+            left: 10px;
+        }
+.end{
+        background-color: rgb(62,191,255); 
+text-align: center;
+    color: white;
+    margin: 0%;
+    padding: 0%;
+    
+}
+@media screen and (max-width: 375px){
+    .flex-container{
+        display: grid;
+    }
+    .flex{
+        display: block
+    }
+}
