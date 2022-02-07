@@ -1,0 +1,23 @@
+let newArray = [1, 2, 3, 4, 5, 6];
+console.log(newArray);
+newArray.pop();
+console.log(newArray);
+newArray = [1, 2, 3, 4, 5, 6];
+newArray.push(7);
+console.log(newArray);
+newArray = [1, 2, 3, 4, 5, 6];
+newArray.shift();
+console.log(newArray);
+newArray = [1, 2, 3, 4, 5, 6];
+newArray.unshift(0);
+console.log(newArray);
+//console.log(newArray.findIndex(2));
+newArray = [1, 2, 3, 4, 5, 6];
+let sliceArray = newArray.slice(1, 4);
+console.log(sliceArray);
+console.log(newArray);
+
+newArray = [1, 2, 3, 4, 5, 6];
+let spliceArray = newArray.splice(6, 0, 7, 8, 9, 10);
+console.log(spliceArray);
+console.log(newArray);
